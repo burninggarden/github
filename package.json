@@ -9,6 +9,7 @@
   "preferGlobal": true,
   "dependencies": {
     "@types/node": "10.9.4",
+	"@burninggarden/http": "0.0.3",
     "typescript": "3.2.1"
   },
   "devDependencies": {
@@ -17,14 +18,11 @@
     "eslint": "^5.15.3",
     "tap": "14.2.2"
   },
-  "bin": {
-    "botanist": "./bin/botanist"
-  },
   "scripts": {
-    "install": "./bin/install",
-    "test": "./bin/test",
-    "lint": "./bin/lint",
-    "preversion": "./bin/preversion",
+    "install":     "./bin/install",
+    "test":        "./bin/test",
+    "lint":        "./bin/lint",
+    "preversion":  "./bin/preversion",
     "postversion": "./bin/postversion"
   }
 }
