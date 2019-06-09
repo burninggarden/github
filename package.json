@@ -6,9 +6,10 @@
   "author": "Burning Garden",
   "homepage": "https://burninggarden.com",
   "repository": "https://github.com/burninggarden/github",
-  "preferGlobal": true,
+  "main": "./dist/src/index.js",
   "dependencies": {
-    "@burninggarden/http": "0.0.4",
+    "@burninggarden/enums": "0.0.10",
+    "@burninggarden/http": "0.0.5",
     "@types/node": "10.9.4",
     "typescript": "3.2.1"
   },
