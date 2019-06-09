@@ -8,8 +8,8 @@
   "repository": "https://github.com/burninggarden/github",
   "preferGlobal": true,
   "dependencies": {
+    "@burninggarden/http": "0.0.4",
     "@types/node": "10.9.4",
-	"@burninggarden/http": "0.0.4",
     "typescript": "3.2.1"
   },
   "devDependencies": {
@@ -19,10 +19,10 @@
     "tap": "14.2.2"
   },
   "scripts": {
-    "install":     "./bin/install",
-    "test":        "./bin/test",
-    "lint":        "./bin/lint",
-    "preversion":  "./bin/preversion",
+    "install": "./bin/install",
+    "test": "./bin/test",
+    "lint": "./bin/lint",
+    "preversion": "./bin/preversion",
     "postversion": "./bin/postversion"
   }
 }
