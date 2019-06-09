@@ -9,7 +9,7 @@
   "preferGlobal": true,
   "dependencies": {
     "@types/node": "10.9.4",
-	"@burninggarden/http": "0.0.3",
+	"@burninggarden/http": "0.0.4",
     "typescript": "3.2.1"
   },
   "devDependencies": {
